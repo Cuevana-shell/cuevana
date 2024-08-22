@@ -155,7 +155,7 @@ function confirmAndSend() {
     });
 
     if (items.length === 0) {
-        message += 'No se seleccionó ningún ítem.';
+        message += 'No tiene items seleccionados.';
     }
 
     const piso = document.getElementById('piso').value;
