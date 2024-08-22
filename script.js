@@ -202,3 +202,9 @@ function openModal() {
 function closeModal() {
     document.getElementById('infoModal').style.display = 'none';
 }
+
+document.addEventListener('visibilitychange', function() {
+    if (document.visibilityState === 'visible') {
+        location.reload();
+    }
+});
