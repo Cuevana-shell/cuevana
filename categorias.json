@@ -1,1 +1,52 @@
-{}
+{
+    "categorias": [
+      {
+        "nombre": "Vestir",
+        "items": [
+          { "id": "pantalones", "nombre": "Pantalones" },
+          { "id": "poleras", "nombre": "Poleras" },
+          { "id": "medias", "nombre": "Pares de Medias" },
+          { "id": "camisas", "nombre": "Camisas" },
+          { "id": "blusas", "nombre": "Blusas" },
+          { "id": "faldas", "nombre": "Faldas" },
+          { "id": "vestidos", "nombre": "Vestidos" },
+          { "id": "chaquetas", "nombre": "Chaquetas" }
+        ]
+      },
+      {
+        "nombre": "Cama",
+        "items": [
+          { "id": "sabanas", "nombre": "Sabanas" },
+          { "id": "fundas", "nombre": "Fundas de almohada" },
+          { "id": "cobijas", "nombre": "Cobijas" },
+          { "id": "edredones", "nombre": "Edredones" },
+          { "id": "cubre", "nombre": "Cubre camas" }
+        ]
+      },
+      {
+        "nombre": "Bano",
+        "items": [
+          { "id": "alfombrillas", "nombre": "Alfombrillas de bano" },
+          { "id": "toallas", "nombre": "Toallas" },
+          { "id": "toallitas", "nombre": "Toallas de mano" }
+        ]
+      },
+      {
+        "nombre": "General",
+        "items": [
+          { "id": "cortinas", "nombre": "Cortinas" },
+          { "id": "tapetes", "nombre": "Tapetes" },
+          { "id": "alfombras", "nombre": "Alfombras" }
+        ]
+      },
+      {
+        "nombre": "Limpieza",
+        "items": [
+          { "id": "trapos", "nombre": "Trapos" },
+          { "id": "panos", "nombre": "Panos de cocina" },
+          { "id": "manteles", "nombre": "Manteles" }
+        ]
+      }
+    ]
+  }
+  
