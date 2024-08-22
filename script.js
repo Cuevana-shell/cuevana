@@ -142,13 +142,13 @@ function updateConfirmationSummary() {
     });
 
     if (items.length === 0) {
-        confirmationSummary.textContent = 'No se seleccionó ningún ítem.';
+        confirmationSummary.textContent = 'No tiene items seleccionados.';
     }
 }
 
 function confirmAndSend() {
     const items = document.querySelectorAll('#summary-list li');
-    let message = 'Resumen de Pedido en Lavanderías Jardín:\n\n';
+    let message = 'Lavanderia Detalle:\n\n';
     
     items.forEach(item => {
         message += item.textContent + '\n';
@@ -168,7 +168,7 @@ function confirmAndSend() {
         message += `\nDepartamento: ${departamento}`;
     }
 
-    const phoneNumber = '59170783199';
+    const phoneNumber = '59171720255';
     const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
     window.open(whatsappURL, '_blank');
