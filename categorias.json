@@ -1,7 +1,7 @@
 {
     "categorias": [
       {
-        "nombre": "Vestir",
+        "nombre": "Ropa de Vestir",
         "items": [
           { "id": "pantalones", "nombre": "Pantalones" },
           { "id": "poleras", "nombre": "Poleras" },
@@ -10,11 +10,14 @@
           { "id": "blusas", "nombre": "Blusas" },
           { "id": "faldas", "nombre": "Faldas" },
           { "id": "vestidos", "nombre": "Vestidos" },
-          { "id": "chaquetas", "nombre": "Chaquetas" }
+          { "id": "chaquetas", "nombre": "Chaquetas" },
+          { "id": "calzoncillos", "nombre": "Calzoncillos" },
+          { "id": "sujetadores", "nombre": "Sujetadores" },
+          { "id": "calzones", "nombre": "Calzones" }
         ]
       },
       {
-        "nombre": "Cama",
+        "nombre": "Ropa de Cama",
         "items": [
           { "id": "sabanas", "nombre": "Sabanas" },
           { "id": "fundas", "nombre": "Fundas de almohada" },
@@ -24,7 +27,7 @@
         ]
       },
       {
-        "nombre": "Bano",
+        "nombre": "Articulos de Baño",
         "items": [
           { "id": "alfombrillas", "nombre": "Alfombrillas de bano" },
           { "id": "toallas", "nombre": "Toallas" },
@@ -32,7 +35,7 @@
         ]
       },
       {
-        "nombre": "General",
+        "nombre": "General Hogar",
         "items": [
           { "id": "cortinas", "nombre": "Cortinas" },
           { "id": "tapetes", "nombre": "Tapetes" },
@@ -40,7 +43,7 @@
         ]
       },
       {
-        "nombre": "Limpieza",
+        "nombre": "Articulos de Limpieza",
         "items": [
           { "id": "trapos", "nombre": "Trapos" },
           { "id": "panos", "nombre": "Panos de cocina" },
