@@ -12,9 +12,10 @@ body {
     margin: 20px auto;
     background-color: #9dcfcd;
     background-image: url('images/wash-machine.png');
-    background-size: 120px 120px; /* Ajusta la imagen para cubrir todo el fondo */
-    background-position: top right; /* Centra la imagen en la página */
-    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-size: 15%;
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-position-y: 15px;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
