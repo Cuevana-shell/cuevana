@@ -29,7 +29,7 @@
       {
         "nombre": "Articulos de Baño",
         "items": [
-          { "id": "alfombrillas", "nombre": "Alfombrillas de bano" },
+          { "id": "alfombrillas", "nombre": "Alfombrillas de baño" },
           { "id": "toallas", "nombre": "Toallas" },
           { "id": "toallitas", "nombre": "Toallas de mano" }
         ]
