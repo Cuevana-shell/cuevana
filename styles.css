@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-    color: #333;
+    color: #063449;
     margin: 0;
     padding: 0;
 }
@@ -10,7 +10,11 @@ body {
     width: 90%;
     max-width: 600px;
     margin: 20px auto;
-    background-color: #fff;
+    background-color: #9dcfcd;
+    background-image: url('images/wash-machine.png');
+    background-size: 120px 120px; /* Ajusta la imagen para cubrir todo el fondo */
+    background-position: top right; /* Centra la imagen en la página */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -18,12 +22,12 @@ body {
 
 h1 {
     text-align: center;
-    color: #4CAF50;
+    color: #063449;
     font-size: 24px;
 }
 
 h2 {
-    color: #4CAF50;
+    color: #063449;
     font-size: 20px;
     margin-bottom: 15px;
 }
@@ -43,7 +47,7 @@ h2 {
     width: 100%;
     padding: 12px;
     font-size: 18px;
-    border: 1px solid #ccc;
+    border: 1px solid #3b7ea0;
     border-radius: 4px;
     margin-bottom: 20px;
 }
@@ -66,14 +70,14 @@ label {
     width: 100%;
     padding: 10px;
     font-size: 16px;
-    border: 1px solid #ccc;
+    border: 1px solid #185177;
     border-radius: 4px;
 }
 
 button.finalizar-btn {
     width: 100%;
     padding: 15px;
-    background-color: #4CAF50;
+    background-color: #114a64;
     color: white;
     border: none;
     border-radius: 4px;
@@ -83,7 +87,7 @@ button.finalizar-btn {
 }
 
 button.finalizar-btn:hover {
-    background-color: #45a049;
+    background-color: #114a64;
 }
 
 #summary {
@@ -104,7 +108,7 @@ button.finalizar-btn:hover {
 .info-btn {
     width: 100%;
     padding: 15px;
-    background-color: #2196F3;
+    background-color: #114a64;
     color: white;
     border: none;
     border-radius: 4px;
@@ -114,7 +118,7 @@ button.finalizar-btn:hover {
 }
 
 .info-btn:hover {
-    background-color: #1976D2;
+    background-color: #114a64;
 }
 
 .modal {
@@ -177,7 +181,7 @@ button.finalizar-btn:hover {
 .custom-number-input button {
     width: 40px;
     height: 40px;
-    background-color: #4CAF50;
+    background-color: #4c8baf;
     color: white;
     border: none;
     border-radius: 4px;
