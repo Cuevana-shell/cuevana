@@ -11,12 +11,13 @@
         <h1>Servicios</h1>
         <div class="tabs">
             <button onclick="goTo('lavanderia')">Lavandería</button>
-            <button onclick="goTo('alquiler')">Gestión de Alquiler</button>
+            <button onclick="goTo('alquiler')">Alquiler Calendario</button>
         </div>
     </div>
     <script>
         function goTo(service) {
-            window.location.href = `/${service}/index.html`;
+            var repoName = "cuevana";
+            window.location.href = `/${repoName}/${service}/`;
         }
     </script>
 </body>
