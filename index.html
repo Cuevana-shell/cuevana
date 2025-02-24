@@ -3,72 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lavanderia</title>
+    <title>Servicios</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1>- AURIGA - LAVANDERIA -</h1>
-        <form id="laundry-form">
-            <div class="section">
-                <label for="category" class="category-label">Seleccione una categoría:</label>
-                <select id="category" class="category-select" onchange="showCategory()">
-                    <option value="" selected disabled>Seleccione una opción</option>
-                </select>
-            </div>
-            
-            <div id="category-sections"></div>
-
-            <div id="summary">
-                <h2>Detalle</h2>
-                <ul id="summary-list"></ul>
-            </div>
-            
-            <button type="button" class="finalizar-btn" onclick="openConfirmationModal()">Revisar</button>
-        </form>
-        
-        <button type="button" class="info-btn" onclick="openModal()">Info Precios</button>
-    </div>
-
-    <div id="infoModal" class="modal">
-        <div class="modal-content">
-            <span class="close" onclick="closeModal()">&times;</span>
-            <h2>Información de Precios</h2>
-            <ul>
-                <li>Ropa Normal: 14 Bs. por kilo</li>
-                <li>Alfombras: 20 Bs. por metro cuadrado</li>
-                <li>Edredones: 25 Bs. por edredón</li>
-            </ul>
+        <h1>Servicios</h1>
+        <div class="tabs">
+            <button onclick="goTo('lavanderia')">Lavandería</button>
+            <button onclick="goTo('alquiler')">Gestión de Alquiler</button>
         </div>
     </div>
-
-    <div id="confirmationModal" class="modal">
-        <div class="modal-content">
-            <span class="close" onclick="closeConfirmationModal()">&times;</span>
-            <h2>Confirmar Pedido</h2>
-            <div id="confirmation-summary">
-            </div>
-            <div class="input-group">
-                <label for="piso">Número del Piso:</label>
-                <div class="custom-number-input">
-                    <button type="button" onclick="decrementc('piso')">-</button>
-                    <input type="number" id="piso" min="0" value="0" class="quantity-input">
-                    <button type="button" onclick="incrementc('piso')">+</button>
-                </div>
-            </div>
-            <div class="input-group">
-                <label for="departamento">Número del Departamento:</label>
-                <div class="custom-number-input">
-                    <button type="button" onclick="decrementc('departamento')">-</button>
-                    <input type="number" id="departamento" min="0" value="0" class="quantity-input">
-                    <button type="button" onclick="incrementc('departamento')">+</button>
-                </div>
-            </div>
-            <button type="button" class="confirm-btn" onclick="confirmAndSend()">Confirmar y Enviar</button>
-            <button type="button" class="cancel-btn" onclick="closeConfirmationModal()">Cancelar</button>
-        </div>
-    </div>
-
-    <script src="script.js"></script>
+    <script>
+        function goTo(service) {
+            window.location.href = `/${service}/index.html`;
+        }
+    </script>
 </body>
 </html>
