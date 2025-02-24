@@ -1,0 +1,76 @@
+/* Mejorar el fondo y centrar el contenido */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f8f9fa;
+    margin: 20px;
+}
+
+/* Mejorar el título */
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilo para el contenedor del calendario */
+#calendar-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Ajustar tamaño del calendario y evitar scroll innecesario */
+#calendar {
+    max-width: 100%;
+    height: auto !important;
+    overflow: hidden !important;
+}
+
+/* Estilos para eventos (fechas ocupadas) */
+.fc-daygrid-event {
+    background-color: rgb(92, 15, 15) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 4px !important;
+    text-align: center;
+    padding: 2px 5px !important;
+    font-size: 12px !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    width: 100% !important;
+}
+
+#selection-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#whatsapp-button {
+    background-color: #25D366;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+#whatsapp-button:hover {
+    background-color: #1EBE5D;
+}
+
+.blocked-date {
+    animation: blink-red 0.5s alternate 3;
+}
+
+@keyframes blink-red {
+    0% { background-color: red; color: white; }
+    100% { background-color: white; color: black; }
+}
+
+

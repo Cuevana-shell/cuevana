@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario Airbnb</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- FullCalendar JS (versión correcta) -->
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js"></script>
+</head>
+<body>
+    <h1>Calendario de Disponibilidad</h1>
+    <div id="calendar-container">
+        <div id="calendar"></div>
+    </div>
+    <p id="error-message" style="color: red; font-weight: bold; display: none;">No puedes seleccionar fechas que ya están reservadas.</p>
+
+
+    <div id="selection-container">
+        <p id="selected-dates">Selecciona fechas disponibles en el calendario.</p>
+        <button id="whatsapp-button" style="display: none;" onclick="sendToWhatsApp()">Reservar por WhatsApp</button>
+    </div>
+
+    <!-- Nuestro script debe cargarse después de FullCalendar -->
+    <script src="script.js"></script>
+</body>
+</html>
