@@ -1,4 +1,6 @@
-const fetch = require('node-fetch');
+import { createRequire } from "module";
+const require = createRequire(import.meta.url);
+import fetch from 'node-fetch';
 
 exports.handler = async function () {
     try {
